@@ -6,7 +6,7 @@ For this project you will use a dataset of 1 million bank transactions to create
 
 A problem that often occurs in the domain of fraud detection is [class imbalance](https://developers.google.com/machine-learning/crash-course/overfitting/imbalanced-datasets). We can assume that an overwhelming majority of transactions are credible and therefore "achieve" 99% accuracy simply by classifying every new sample as non-fraudulent (0). However, if we do this, we will miss every single fraudulent transaction and subsequently get a sensitivity of 0%. 
 
-Within this project, you will create a comprehensive machine learning pipeline that utilizes the strategies we discuss in class to achieve non-zero precision, recall, and sensitivity. You will achieve this by doing the following:
+Within this project, you will create a comprehensive machine learning pipeline that utilizes the strategies we discuss in class to achieve non-zero precision, recall (sensitivity), and specificity. You will achieve this by doing the following:
 
 * form a hypothesis through EDA, 
 * complete data pre-processing, 
